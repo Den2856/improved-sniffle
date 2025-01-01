@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yota</title>
+    <link rel="stylesheet" href="static/css/blog.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar__location">
+            <span class="icon">
+                <svg width="100%" height="100%" viewBox="0 0 32 32" fill="434C5D" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <path d="M16 0C10.0117 0 5 5.0912 5 11.1746C5 13.6192 6.45813 17.3196 9.5 22.8571C11.5757 26.6357 13.9128 29.8655 14 30L15.0787 31.4921C15.2293 31.7239 15.6894 32 16 32C16.3106 32 16.7774 31.7239 16.928 31.4921L18 30C18.0863 29.8671 20.4083 26.6648 22.5 22.8571C25.5418 17.3198 27 13.6194 27 11.1746C27 5.0912 21.9883 0 16 0ZM21 21.3333C18.9374 25.0878 16.7942 28.3136 16.7091 28.4444L16 29.4603L15.3216 28.4444C15.2361 28.3125 13.0469 25.0592 11 21.3333C8.17842 16.1967 7 13.2668 7 11.1746C7 6.00278 10.9089 2.03175 16 2.03175C21.091 2.03175 25 6.00278 25 11.1746C25 13.2671 23.8216 16.1968 21 21.3333Z" fill="#00AEEF"></path>
+                    <path d="M16 5C12.6798 5 10 7.67985 10 11C10 14.3202 12.6798 17 16 17C19.3202 17 22 14.3202 22 11C22 7.67985 19.3202 5 16 5ZM16 15C13.7328 15 11.8823 13.2642 12 11C12.1118 8.85034 13.8474 6.99998 16 7C18.1526 7.00002 19.8882 8.85036 20 11C20.1177 13.2642 18.2672 15 16 15Z" fill="#00AEEF"></path>
+                </svg>
+            </span>
+            <a href="#" class="location-link">Москва и область</a>
+        </div>
+        <nav class="top-bar__nav">
+            <a href="#" class="nav-link">Интернет-магазин</a>
+            <a href="#" class="nav-link">Приложение</a>
+            <a href="#" class="nav-link">Оплата</a>
+            <a href="#" class="nav-link">Точки продаж</a>
+            <a href="#" class="nav-link">Карта покрытия</a>
+            <a href="#" class="nav-link">Для бизнеса</a>
+        </nav>
+    </div>
+    <header class="main-header">
+        <div class="container">
+            <div class="brand">
+                <svg id="logo" width="100%" height="100%" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <path d="M14.1927 28.2357C14.1927 30.3154 12.4975 32.0002 10.4074 32.0002C8.31621 32.0002 6.62207 30.3144 6.62207 28.2357C6.62207 26.156 8.31722 24.4712 10.4074 24.4712C12.4975 24.4712 14.1927 26.157 14.1927 28.2357Z" fill="#00AEEF"></path>
+                    <path d="M12.3672 13.6094L12.5328 13.5762C17.3314 12.5856 20.8146 8.32275 20.8146 3.44203V1.94907C20.8146 0.87407 19.9357 0 18.8548 0C17.7739 0 16.895 0.875074 16.895 1.94907V3.44203C16.895 5.22834 16.1777 6.88908 14.8755 8.11981C13.6592 9.26916 12.0863 9.88804 10.4083 9.89206C8.73035 9.88804 7.15743 9.26916 5.94112 8.11981C4.63793 6.89008 3.92068 5.22935 3.92068 3.44303V1.94907C3.92068 0.875074 3.04077 0 1.95983 0C0.878894 0 0 0.875074 0 1.94907V3.44203C0 8.32275 3.48325 12.5856 8.28181 13.5762L8.44749 13.6094V18.2068L8.28181 18.2399C3.48325 19.2305 0 23.4934 0 28.3741V29.8671C0 30.9421 0.878894 31.8161 1.95983 31.8161C3.04077 31.8161 3.91967 30.9411 3.91967 29.8671V28.3741C3.91967 26.5878 4.63692 24.9271 5.9391 23.6963C7.15541 22.547 8.72833 21.9281 10.4063 21.9241C12.0843 21.9281 13.6572 22.547 14.8735 23.6963C16.1757 24.9271 16.893 26.5878 16.893 28.3741V29.8671C16.893 30.9421 17.7718 31.8161 18.8528 31.8161C19.9337 31.8161 20.8126 30.9411 20.8126 29.8671V28.3741C20.8126 23.4934 17.3294 19.2305 12.5308 18.2399L12.3651 18.2068V13.6094H12.3672Z" fill="#00AEEF"></path>
+                </svg>
+                <svg id="wordmark" width="100%" height="100%" viewBox="0 0 63 18" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <path d="M1.22086 3.67458C0.923857 3.22047 0.717773 2.67493 0.717773 2.1977C0.717773 1.3799 1.33502 0.402344 2.5685 0.402344C3.34536 0.402344 3.82522 0.78814 4.3273 1.58385L7.9833 7.35472L11.6615 1.58385C12.1646 0.78814 12.6435 0.402344 13.3981 0.402344C14.6093 0.402344 15.2488 1.37889 15.2488 2.1977C15.2488 2.67493 15.0427 3.24257 14.7457 3.67458L9.87948 11.0369V15.0586C9.87948 16.2853 9.21678 17.1714 8.00653 17.1714C6.79628 17.1714 6.17904 16.2853 6.17904 15.0586V11.0821L1.22086 3.67458Z" fill="#00AEEF"></path>
+                    <path d="M24.4935 17.308C19.7646 17.308 15.9258 13.4912 15.9258 8.78728C15.9258 4.08438 19.7636 0.266602 24.4935 0.266602C29.2224 0.266602 33.0612 4.08337 33.0612 8.78728C33.0612 13.4902 29.2234 17.308 24.4935 17.308ZM24.4935 13.7634C27.1433 13.7634 29.3597 11.4909 29.3597 8.78728C29.3597 6.08369 27.1433 3.81111 24.4935 3.81111C21.8659 3.81111 19.6272 6.08369 19.6272 8.78728C19.6272 11.4909 21.8659 13.7634 24.4935 13.7634Z" fill="#00AEEF"></path>
+                    <path d="M39.0106 4.19774H35.5152C34.3272 4.19774 33.5049 3.53867 33.5049 2.35717C33.5049 1.17567 34.3272 0.516602 35.5152 0.516602H46.2307C47.3955 0.516602 48.2642 1.17567 48.2642 2.35717C48.2642 3.53867 47.3965 4.19774 46.2307 4.19774H42.7121V15.0583C42.7121 16.285 42.0948 17.1711 40.8613 17.1711C39.6278 17.1711 39.0106 16.285 39.0106 15.0583V4.19774Z" fill="#00AEEF"></path>
+                    <path d="M57.8586 2.62944L62.6794 14.1491C62.9077 14.6715 62.9996 15.0583 62.9996 15.421C62.9996 16.489 62.1995 17.1701 61.1943 17.1701C60.4175 17.1701 59.778 16.7612 59.4578 15.9434L58.5213 13.5573H51.3699L50.4102 15.9434C50.09 16.7391 49.4737 17.1701 48.6969 17.1701C47.7826 17.1701 46.8916 16.5563 46.8916 15.421C46.8916 15.0573 46.9825 14.6715 47.2118 14.1491L52.0326 2.62944C52.5812 1.3113 53.5864 0.516602 54.934 0.516602C56.2594 0.516602 57.31 1.3113 57.8586 2.62944ZM57.1504 10.1957L54.9572 4.72018L52.7408 10.1957H57.1504Z" fill="#00AEEF"></path>
+                </svg>
+            </div>
+            <!-- Меню -->
+            <nav class="main-nav">
+                <a href="#" class="nav-link">
+                    Мобильная связь
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </a>
+                <a href="#" class="nav-link">
+                    Абоненты
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </a>
+                <a href="#" class="nav-link">
+                    Интернет
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </a>
+                <a href="#" class="nav-link">
+                    Сервисы и услуги
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </a>
+                <a href="#" class="nav-link">
+                    Поддержка
+                </a>
+            </nav>
+            <!-- Кнопки -->
+            <div class="actions">
+                <a href="#" class="btn blue">Заказать сим-карту</a>
+                <a href="#" class="user-login">
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M8 7.97203C8 3.53855 11.5826 0 16 0C20.4174 0 24 3.56652 24 8C24 12.4335 20.4174 16 16 16C11.5826 16 8 12.4055 8 7.97203ZM16 2C12.7075 2 10 4.8328 10 8C10 11.1672 12.7075 14 16 14C19.2925 14 22 11.1672 22 8C22 4.8328 19.2925 2 16 2ZM0.999995 30C1.59254 23.2719 8.26264 18.5 16 18.5C23.7374 18.5 30.4075 23.2719 31 30C31.0966 31.097 30.5 32 29 32H3C1.5 32 0.903386 31.097 0.999995 30ZM3 30H29C28.2762 24.9284 22.7866 20.5 16 20.5C9.21335 20.5 3.72378 24.9284 3 30Z" fill="#00aeef"></path>
+                    </svg>
+                    Войти
+                    <svg class="small" width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <h1 class="hero-title">
+            МОЖНО. <span class="highlight">YOTA</span>
+        </h1>
+    </section>
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slider-navigation">
+                <button class="prev">
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="slider-content" style="display: flex;">
+                <div class="slider-text">
+                    <h1>МОЖНО за 299 ₽ в месяц</h1>
+                    <p>Больше интернета и безлимит на соцсети и мессенджеры</p>
+                    <button class="btn-details">Подробнее</button>
+                </div>
+                <div class="slider-image">
+                    <img src="../public/media/image/2023/banner_mozhno.png" width="300px" height="215px" alt="Phone with tariff details">
+                </div>
+            </div>
+
+            <div class="slider-content" style="display: none;">
+                <div class="slider-text">
+                    <h1>ПОДКЛЮЧИ МАКСИМУМ</h1>
+                    <p>Всего 1000 ₽ за 3 месяца с Абонементом</p>
+                    <button class="btn-details">Подробнее</button>
+                </div>
+                <div class="slider-image">
+                    <img src="../public/media/image/2023/slide_2.png" width="300px" height="215px" alt="Phone with tariff details">
+                </div>
+            </div>
+
+            <div class="slider-content" style="display: none;">
+                <div class="slider-text">
+                    <h1>Играешь? Подключай!</h1>
+                    <p>Начисляем игровую валюту каждый месяц</p>
+                    <button class="btn-details">Подробнее</button>
+                </div>
+                <div class="slider-image">
+                    <img src="../public/media/image/2023/slide_3.png" width="300px" height="215px" alt="Phone with tariff details">
+                </div>
+            </div>
+
+            <div class="slider-content" style="display: none;">
+                <div class="slider-text">
+                    <h1 style="font-size: 44px;">Смотри сериалы бесплатно</h1>
+                    <p>Подписка на онлайн-кинотеатр START в твоём тарифе</p>
+                    <button class="btn-details">Подробнее</button>
+                </div>
+                <div class="slider-image">
+                    <img src="../public/media/image/2023/slide_4.png" width="300px" height="215px" alt="Phone with tariff details">
+                </div>
+            </div>
+
+            <div class="slider-content" style="display: none;">
+                <div class="slider-text">
+                    <h1>Сим-карта за 30 минут</h1>
+                    <p>Бесплатная доставка от Самоката</p>
+                    <button class="btn-details">Подробнее</button>
+                </div>
+                <div class="slider-image">
+                    <img src="../public/media/image/2023/slide_5.svg" width="300px" height="215px" alt="Phone with tariff details">
+                </div>
+            </div>
+
+            <div class="slider-indicators">
+                <div class="indicator" data-slide="0">
+                    <div class="progress"></div>
+                </div>
+                <div class="indicator" data-slide="1">
+                    <div class="progress"></div>
+                </div>
+                <div class="indicator" data-slide="2">
+                    <div class="progress"></div>
+                </div>
+                <div class="indicator" data-slide="3">
+                    <div class="progress"></div>
+                </div>
+                <div class="indicator" data-slide="4">
+                    <div class="progress"></div>
+                </div>
+            </div> 
+
+            <div class="slider-label">Реклама</div>
+
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <div class="cards-container">
+          <!-- Card 1 -->
+            <div class="card">
+                <h3 class="card-title">
+                    Оплатить
+                    <span class="highlight">смартфон/планшет</span> 
+                    <span class="dropdown-icon">
+                        <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                            <path d="M13.3604 23.3729C15.4871 25.5424 16.5504 25.5424 18.6771 23.3729L31.4371 10.3558C31.4371 10.3558 32.7036 8.95794 31.4371 7.6439C30.0407 6.19512 28.7788 7.64391 28.7788 7.64391L16.0188 20.6788L3.25876 7.64391C3.25876 7.64391 1.87886 6.31748 0.600421 7.64388C-0.750527 9.04551 0.600422 10.3558 0.600422 10.3558L13.3604 23.3729Z" fill="#00AEEF"></path>
+                        </svg>
+                    </span>
+                </h3>
+                <div class="payment-form">
+                    <div class="input-group">
+                        <div class="input-item sum-input">
+                            <label for="sum">Сумма</label>
+                            <input type="text" id="sum" placeholder="500 ₽">
+                        </div>
+                        <div class="input-item">
+                            <label for="phone">Номер телефона</label>
+                            <input type="text" id="phone" placeholder="+7">
+                        </div>
+                    </div>
+                    <button class="button-1">Оплатить</button>
+                </div>              
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="card">
+                <h3 class="card-title">Настроить свой тариф</h3>
+                <p class="card-text">Выбери нужное количество минут и гигабайтов</p>
+                <img src="../public/media/image/2023/banner_2.png" width="215px" alt="Настроить тариф" class="card-img" />
+                <button class="button-outline">Выбрать</button>
+            </div>
+        </div>
+      
+        <!-- Secondary Cards -->
+        <div class="secondary-cards">
+            <div class="secondary-card">
+                <img src="../public/media/image/2023/banner_3.png" width="188px" style="top: -10px;" alt="Перейти со своим номером" class="card-banner" />
+                <h2 class="card-title">Перейти со своим</h2>
+                <h4 class="card-title">номером</h4>
+                <p class="card-text">От другого оператора</p>
+                <button class="button-outline-1">Перейти</button>
+            </div>
+      
+            <div class="secondary-card">
+                <img src="../public/media/image/2023/banner_4.png" width="188px" alt="Оформить eSIM" class="card-banner" />
+                <h4 class="card-title">Оформить</h4>
+                <h4 class="card-title"> eSIM</h4>
+                <p class="card-text">Онлайн, не выходя из дома</p>
+                <button class="button-outline-1">Подробнее</button>
+            </div>
+      
+            <div class="secondary-card">
+                <img src="../public/media/image/2023/banner_5.png" width="188px" alt="Заказать красивый номер" class="card-banner" />
+                <h4 class="card-title">Заказать красивый номер</h4>
+                <h4 class="card-title">номер</h4>
+                <p class="card-text">С бесплатной доставкой</p>
+                <button class="button-outline-1">Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-yota-section">
+        <h2 class="why-yota-title">Почему Yota</h2>
+        <div class="why-yota-cards">
+            <div class="why-yota-card">
+                <img src="../public/media/image/2023/why-1.png" alt="17 лет на связи" class="why-yota-icon">
+                <h3 class="why-yota-card-title">17 лет на связи</h3>
+                <p class="why-yota-card-text">Входим в топ-5 операторов по количеству абонентов</p>
+            </div>
+            <div class="why-yota-card">
+                <img src="../public/media/image/2023/why-2.png" alt="Быстрый интернет" class="why-yota-icon">
+                <h3 class="why-yota-card-title">Быстрый интернет</h3>
+                <p class="why-yota-card-text">Yota работает на сети МегаФона с <span class="highlight">лучшей скоростью интернета</span></p>
+            </div>
+            <div class="why-yota-card">
+                <img src="../public/media/image/2023/why-3.png" style="width: 213px !important;" alt="Широкое покрытие" class="why-yota-icon">
+                <h3 class="why-yota-card-title">Широкое покрытие</h3>
+                <p class="why-yota-card-text"><span class="highlight">Сеть охватывает</span> всю страну</p>
+            </div>
+            <div class="why-yota-card">
+                <img src="../public/media/image/2023/why-4.png" alt="Абоненты любят нас" class="why-yota-icon">
+                <h3 class="why-yota-card-title">Абоненты любят нас</h3>
+                <p class="why-yota-card-text">У Yota абоненты <span class="highlight">довольны оператором больше</span>, чем у других</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-yota-section">
+        <div class="app-yota-container">
+            <div class="app-yota-text">
+                <h2 class="app-yota-title">Приложение Yota</h2>
+                <p class="app-yota-description">Управляй тарифом и услугами со своего телефона</p>
+                <div class="app-yota-qr">
+                    <img src="../public/media/image/2023/qr.svg" alt="QR-код для скачивания приложения" class="app-yota-qr-image">
+                    <p class="app-yota-qr-text">Наведи камеру, чтобы скачать</p>
+                </div>
+            </div>
+            <div class="app-yota-image">
+                <img src="../public/media/image/2023/yota.png" alt="Приложение Yota" class="app-yota-phone-image">
+            </div>
+        </div>
+    </section>
+      
+    <section class="info-section">
+        <div class="info-container">
+            <div class="info-card">
+                <div class="info-text">
+                    <h3 class="info-title">Карта покрытия</h3>
+                    <p class="info-description">Работает на территории всей России</p>
+                    <a href="#" class="info-button">Подробнее</a>
+                </div>
+                <div class="info-image">
+                    <img src="../public/media/image/2023/why-3.png" width="244px" height="134px" alt="Карта покрытия">
+                </div>
+            </div>
+            <div class="info-card chat-card">
+                <div class="info-text">
+                    <h3 class="info-title">Остались вопросы?</h3>
+                    <p class="info-description">Напиши в чат и наши специалисты ответят со скоростью света.</p>
+                    <a href="#" class="info-button">Перейти в чат</a>
+                </div>
+                <div class="info-image">
+                    <img src="../public/media/image/2023/chat.png" width="244px" height="233px" alt="Иконка чата">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="../public/media/image/2023/qr.svg" alt="QR Code">
+                <p>Наведите на QR, чтобы скачать приложение</p>
+            </div>
+            <div class="footer-center">
+                <ul>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Правила возврата</a></li>
+                    <li><a href="#">Документы</a></li>
+                    <li><a href="#">Прессе</a></li>
+                    <li><a href="#">Оценить сайт</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>12+ © 2024 ООО «Скартел»</p>
+                <p>Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных, в т.ч. с использованием системы Яндекс Метрика, в соответствии с <a href="#">Политикой конфиденциальности</a>.</p>
+                <p><a href="#">Политика в отношении обработки персональных данных</a></p>
+            </div>
+        </div>
+    </footer>
+      
+      
+    
+    
+    <script src="/public/static/js/topfix.js"></script>    
+</body>
+</html>
